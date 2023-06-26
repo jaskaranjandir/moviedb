@@ -23,7 +23,7 @@ export default function Home(){
     <ul className="grid gap-3 w-100 ">
       {movies.map((movie:Movie)=>(
         <li className="grid gap-2 ">
-          <div className="container mx-auto flex flex-wrap   w-100  bg-slate-100 p-4 rounded">
+          <div className="container mx-auto flex flex-wrap   w-100  bg-slate-100 dark:text-slate-800 p-4 rounded">
             <div style={{width:150+'px',height:150+'px'}}  className="flex flex-wrap">
               <img src={movie.image} style={{width:150+'px',height:150+'px'}} className="rounded self-center container w-100 " alt={movie.title}  />
             </div>

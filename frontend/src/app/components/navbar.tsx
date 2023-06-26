@@ -8,7 +8,7 @@ const Navbar = () => {
     
     <a href="/" className="flex items-center">  
     
-    <span className="self-center text-2xl font-semibold whitespace-nowrap text-slate-800"><i className="fa-solid fa-film fa-flip"></i>   <span className='text-blue-500'>Movies</span>DB</span>
+    <span className="self-center text-2xl font-semibold whitespace-nowrap text-slate-800 dark:text-slate-100"><i className="fa-solid fa-film fa-flip"></i>   <span className='text-blue-500'>Movies</span>DB</span>
     </a>
 
   </div>
